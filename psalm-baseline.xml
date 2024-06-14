@@ -638,9 +638,6 @@
     <ArgumentTypeCoercion>
       <code>$expectedInstanceOf</code>
     </ArgumentTypeCoercion>
-    <MixedInferredReturnType>
-      <code>array</code>
-    </MixedInferredReturnType>
   </file>
   <file src="test/Listener/OnBootstrapListenerTest.php">
     <InvalidPropertyAssignmentValue>
@@ -805,6 +802,10 @@
     <TypeDoesNotContainType>
       <code><![CDATA[is_array($this->loaders)]]></code>
     </TypeDoesNotContainType>
+    <MissingConstructor>
+      <code>$loaders</code>
+      <code>$includePath</code>
+    </MissingConstructor>
   </file>
   <file src="test/TestAsset/MockApplication.php">
     <MissingConstructor>
